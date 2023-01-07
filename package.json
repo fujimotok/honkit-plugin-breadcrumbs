@@ -1,7 +1,7 @@
 {
   "name": "honkit-plugin-breadcrumbs",
   "version": "0.0.1",
-  "description": "Breadcrums plugin for Honkit",
+  "description": "Breadcrumbs plugin for Honkit",
   "author": "fujimotok",
   "license": "MIT",
   "keywords": [
@@ -10,12 +10,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fujimotok/gitbook-plugin-breadcrumbs.git"
+    "url": "git+https://github.com/fujimotok/honkit-plugin-breadcrumbs.git"
   },
   "bugs": {
-    "url": "https://github.com/vowstar/gitbook-plugin-breadcrumbs/issues"
+    "url": "https://github.com/fujimotok/honkit-plugin-breadcrumbs/issues"
   },
-  "homepage": "https://github.com/vowstar/gitbook-plugin-breadcrumbs",
+  "homepage": "https://github.com/fujimotok/honkit-plugin-breadcrumbs",
   "main": "index.js",
   "scripts": {
     "test": "jest"
