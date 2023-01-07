@@ -5,7 +5,7 @@ This is a Honkit plugin for displaying breadcrumbs.
 ## Installation
 
 ```bash
-npm install gitbook-plugin-breadcrumbs
+npm install honkit-plugin-breadcrumbs
 ```
 
 Add this plugin into ``book.json``.
