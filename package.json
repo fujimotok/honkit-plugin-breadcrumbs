@@ -1,0 +1,69 @@
+{
+  "name": "honkit-plugin-breadcrumbs",
+  "version": "0.0.1",
+  "description": "Breadcrums plugin for Honkit",
+  "author": "fujimotok",
+  "license": "MIT",
+  "keywords": [
+    "honkit",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fujimotok/gitbook-plugin-breadcrumbs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vowstar/gitbook-plugin-breadcrumbs/issues"
+  },
+  "homepage": "https://github.com/vowstar/gitbook-plugin-breadcrumbs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "honkit": ">1.x.x"
+  },
+  "honkit": {
+    "properties": {
+      "subdir": {
+        "type": "string",
+        "default": "",
+        "description": "url sub directory"
+      },
+      "home": {
+        "type": "string",
+        "default": "",
+        "description": "home icon character"
+      },
+      "separator": {
+        "type": "string",
+        "default": "",
+        "description": "separator character"
+      },
+      "aliases": {
+        "type": "array",
+        "default": [],
+        "items": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "aliase": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "path",
+            "aliase"
+          ]
+        },
+        "description": "breadcrumbs path aliases"
+      }
+    }
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "rewire": "^6.0.0"
+  }
+}
