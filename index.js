@@ -34,6 +34,8 @@ const normalizeSubdir = (subdir) => {
 module.exports = {
   hooks: {
     'page': function(page) {
+      if (this.output.name === 'ebook') return
+
       const config = this.config.get('pluginsConfig.breadcrumbs', {})
       
       const path = normalizePath(page.path)
